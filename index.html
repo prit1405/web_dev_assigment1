@@ -1,37 +1,6 @@
 <html>
 <head>
 <title>my web page</title>
-</head>
-<body>
-
-<header>
-<h1>welcome to <mark>web</mark> page</h1>
-<p><strong> This <em>is</em> a page </strong></p>
-</header>
-
-
-<section>
-	<nav>
-	<a>About</a>
-	<a>Menu</a>
-	<a>Trivia</a>
-	<a>Extras</a>
-    </nav>
-	<figure>
-    <img src="C:\Users\prit parmar\OneDrive\Desktop\web\images.jpg"" alt="What is a Webpage graphic" width="500" height="600" />
-	<figcaption>google</figcaption>
-	</figure>
-	
-	<article>
-	
-	<h2>About</h2>
-		<p><abbr title="Tutedude">TD</abbr> was founded in 2021.This demo  project was created by <strong>TuteDude</strong> for learning all major HTMl tags.</p>
-		
-	
-	
-	</article>
-</section>
-<h2>Menu</h2>
 <style> table {
     border-collapse: collapse;
     font-family: Arial, sans-serif;
@@ -57,67 +26,7 @@
     font-weight: bold;
     text-align: left;
   }
-</style>
-</head>
-<body>
-
-<table>
-  <!-- Header Rows -->
-  <thead>
-    <tr>
-      <th rowspan="2">Category</th>
-      <th rowspan="2">Type</th>
-     
-    </tr>
-    <tr>
-      <th>Qty</th>
-      <th>Price</th>
-      <th>Qty</th>
-      <th>Price</th>
-    </tr>
-  </thead>
-  <tbody>
-    
-    <tr>
-      <td rowspan="3"><strong>TuteDude</strong></td>
-      <td class="left-align">laptop</td>
-      <td>1</td>
-      <td>$1.50</td>
-      <td>3</td>
-      <td>$3.25</td>
-    </tr>
-    <tr>
-      <td class="left-align">phone</td>
-      <td>1</td>
-      <td>$1.75</td>
-      <td>3</td>
-      <td>$3.50</td>
-    </tr>
-        </table>
-   
-  </tfoot>
-</table>
-	<h2>Trivia</h2>
-
-  <p>When did TuteDude first appear in the United States?</p>
- 
- 
-  <h2>Extras</h2>
-  
-<audio controls autoplay>
-  <source src="C:\Users\prit parmar\OneDrive\Desktop\web\siren-going-off-police.wav" type="audio/ogg">
-  <source src="C:\Users\prit parmar\OneDrive\Desktop\web\siren-going-off-police.wav" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<br>
-<video width="320" height="240"  controls autoplay>
-  <source src="C:/Users/prit%20parmar/OneDrive/Desktop/web/IMG_6526.MOV.mp4" type="video/mp4">
-  <source src="C:/Users/prit%20parmar/OneDrive/Desktop/web/IMG_6526.MOV.mp4" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
-
-<style>
-    body {
+  body {
       font-family: Arial, sans-serif;
       padding: 20px;
       background-color: #f9f9f9;
@@ -167,27 +76,178 @@ Your browser does not support the audio element.
     }
     .btn-submit:hover {
       background-color: #004d99;
-    }
-  </style>
+</style>
 </head>
-<br>
 <body>
+<header>
+<h1>welcome to <mark>web</mark> page</h1>
+<p><strong> This <em>is</em> a page </strong></p>
+</header>
+<section>
+	<nav>
+	<a>About</a>
+	<a>Menu</a>
+	<a>Trivia</a>
+	<a>Extras</a>
+    </nav>
+	<figure>
+    <img src="C:\Users\prit parmar\OneDrive\Desktop\web\images.jpg"" alt="What is a Webpage graphic" width="500" height="600" />
+	<figcaption>google</figcaption>
+	</figure>
+	<article>
+	<h2>About</h2>
+		<p><abbr title="Tutedude">TD</abbr> was founded in 2021.This demo  project was created by <strong>TuteDude</strong> for learning all major HTMl tags.</p>
+	</article>
+</section>
+<h2>Menu</h2>
+<table>
+  <!-- Header Rows -->
+  <thead>
+    <tr>
+      <th rowspan="2">Category</th>
+      <th rowspan="2">Type</th>
+      <th colspan="2" class="text-center bold">small protion</th>
+      <th colspan="2" class="text-center bold">large protion</th>
 
+    </tr>
+    <tr>
+      <th>Qty</th>
+      <th>Price</th>
+      <th>Qty</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody> 
+    <tr>
+      <td rowspan="3" class="text-center bold">TuteDude</td>
+      <td>cruncht (Beef)</td>l
+      <td>1</td>
+      <td>$1.50</td>
+      <td>3</td>
+      <td>$3.25</td>
+    </tr>
+    <tr>
+      <td>crunchy (Chicken)</td>
+      <td>1</td>
+      <td>$1.75</td>
+      <td>3</td>
+      <td>$3.50</td>
+    </tr>
+    <tr>
+      <td>
+        <div>Crunchy (Veggie)</div>
+        <div class="italic text-center">Nutrition Info</div>
+        <table class="nested-table">
+          <thead>
+            <tr>
+              <th>Nutrient</th>
+              <th>Value</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Calories</td>
+                  <td>150 kcal</td>
+                </tr>
+                <tr>
+                  <td>Protein</td>
+                  <td>5g</td>
+                </tr>
+                <tr>
+                  <td>Fiber</td>
+                  <td>4g</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td class="text-center">1</td>
+          <td class="text-left">$1.25</td>
+          <td class="text-center">3</td>
+          <td class="text-left">$3.00</td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="text-center bold">Soft TuteDude</td>
+      <td>Soft (Beef)</td>
+      <td class="text-center">2</td>
+      <td class="text-left">$3.50</td>
+      <td class="text-center">4</td>
+      <td class="text-left">$6.50</td>
+    </tr>
+     <tr>
+      <td>Soft (Veggie)</td>
+      <td class="text-center">2</td>
+      <td class="text-left">$3.00</td>
+      <td class="text-center">4</td>
+      <td class="text-left">$5.50</td>
+    </tr>
+     <tr>
+      <td rowspan="2" class="text-center bold">Combos</td>
+      <td>2 Crunchy + Drink</td>
+      <td colspan="4" class="text-left">$4.50</td>
+    </tr>
+    <tr>
+      <td>
+        <div>2 Soft + Drink</div>
+        <div class="italic text-center">Combo Meals Nutrition Facts</div>
+        <table class="nested-table">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Calories</th>
+              <th>Sugar</th>
+            </tr>
+          </thead>
+           <tbody>
+            <tr>
+              <td>Soft Taco</td>
+              <td>200 kcal</td>
+              <td>2 g</td>
+            </tr>
+            <tr>
+              <td>Drink</td>
+              <td>120 kcal</td>
+              <td>25 g</td>
+            </tr>
+            <tr class="bold">
+              <td>Total</td>
+              <td>320 kcal</td>
+              <td>27 g</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+       <td colspan="2" class="text-left">$5.00</td>
+      <td colspan="2" class="text-center">N/A</td>
+    </tr>
+  </tfoot>
+</table>
+	<h2>Trivia</h2>
+  <p>When did TuteDude first appear in the United States?</p>
+  <h2>Extras</h2>
+<audio controls autoplay>
+  <source src="C:\Users\prit parmar\OneDrive\Desktop\web\siren-going-off-police.wav" type="audio/ogg">
+  <source src="C:\Users\prit parmar\OneDrive\Desktop\web\siren-going-off-police.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<br>
+<video width="320" height="240"  controls autoplay>
+  <source src="C:/Users/prit%20parmar/OneDrive/Desktop/web/IMG_6526.MOV.mp4" type="video/mp4">
+  <source src="C:/Users/prit%20parmar/OneDrive/Desktop/web/IMG_6526.MOV.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+<br>
   <form class="feedback-form" action="#" method="post">
     <h2>Customer Feedback</h2>
-
     <!-- Full Name -->
     <div class="form-group">
       <label for="name">Full Name</label>
       <input type="text" id="name" name="name" placeholder="Enter your full name" required>
     </div>
-
     <!-- Email Address -->
     <div class="form-group">
       <label for="email">Email Address</label>
       <input type="email" id="email" name="email" placeholder="example@mail.com" required>
     </div>
-
     <!-- Meal / Experience Rating -->
     <div class="form-group">
       <label>How was your overall experience?</label>
@@ -197,34 +257,24 @@ Your browser does not support the audio element.
         <label><input type="radio" name="rating" value="average"> Average</label>
         <label><input type="radio" name="rating" value="poor"> Poor</label>
       </div>
-    </div>
-
     <!-- Favorite Item Dropdown -->
     <div class="form-group">
       <label for="favorite-item">What was your favorite item?</label>
       <select id="favorite-item" name="favorite_item">
         <option value="">-- Please select --</option>
         <option value="phone">phone</option>
-        <option value="laptop">laptop</option>
-        
+        <option value="laptop">laptop</option>    
       </select>
     </div>
-
     <!-- Comments / Suggestions -->
     <div class="form-group">
       <label for="comments">Comments &amp; Suggestions</label>
       <textarea id="comments" name="comments" rows="4" placeholder="Tell us how we can improve..."></textarea>
     </div>
-
     <!-- Submit Button -->
     <button type="submit" class="btn-submit">Submit Feedback</button>
   </form>
-  <br
-  
-  
-
-
-  
+  <br>  
 <footer>
 <address>
 Written by <a href="pritparmar076@gamil.com">Prit Parmar</a>.<br> 
@@ -235,8 +285,5 @@ pin code:390012<br>
 mo:2585184
 </address>
 </footer>
-
 </body>
 </html>
-
-
